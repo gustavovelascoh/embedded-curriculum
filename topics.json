@@ -1,0 +1,257 @@
+{
+    "topics":
+    [
+        {
+            "id": 1,
+            "name": "Introduction to Programming",
+            "brief": "Introduction to programming using Python. Data structures and algorithms.",
+            "details": "",
+            "requires": [],
+            "core": true,
+            "path": ""
+        },
+        {
+            "id": 2,
+            "name": "Digital Systems I",
+            "brief": "",
+            "details": "",
+            "requires": [],
+            "core": true,
+            "path": ""
+        },
+        {
+            "id": 3,
+            "name": "Analog Electronics I",
+            "brief": "",
+            "details": "",
+            "requires": [],
+            "core": true,
+            "path": ""
+        },
+        {
+            "id": 4,
+            "name": "Web Technologies",
+            "brief": "",
+            "details": "",
+            "requires": [1],
+            "core": false,
+            "path": ""
+        },
+        {
+            "id": 5,
+            "name": "C Programming",
+            "brief": "",
+            "details": "",
+            "requires": [1],
+            "core": true,
+            "path": ""
+        },
+        {
+            "id": 6,
+            "name": "Digital Systems II",
+            "brief": "",
+            "details": "",
+            "requires": [2],
+            "core": true,
+            "path": ""
+        },
+        {
+            "id": 7,
+            "name": "Analog Electronics II",
+            "brief": "",
+            "details": "",
+            "requires": [3],
+            "core": true,
+            "path": ""
+        },
+        {
+            "id": 8,
+            "name": "Instrumentation. Sensors and Actuators",
+            "brief": "",
+            "details": "",
+            "requires": [3],
+            "core": true,
+            "path": ""
+        },
+        {
+            "id": 9,
+            "name": "Operating Systems",
+            "brief": "",
+            "details": "",
+            "requires": [5],
+            "core": true,
+            "path": ""
+        },
+        {
+            "id": 10,
+            "name": "UNIX/Linux Systems",
+            "brief": "",
+            "details": "",
+            "requires": [9,11],
+            "core": true,
+            "path": ""
+        },
+        {
+            "id": 11,
+            "name": "Software Architecture",
+            "brief": "",
+            "details": "",
+            "requires": [5],
+            "core": true,
+            "path": ""
+        },        
+        {
+            "id": 12,
+            "name": "Microcontrollers I",
+            "brief": "",
+            "details": "",
+            "requires": [6],
+            "core": true,
+            "path": ""
+        },        
+        {
+            "id": 13,
+            "name": "Computer Architecture",
+            "brief": "",
+            "details": "",
+            "requires": [6],
+            "core": true,
+            "path": ""
+        },
+        {
+            "id": 14,
+            "name": "PCB Design",
+            "brief": "",
+            "details": "",
+            "requires": [3],
+            "core": true,
+            "path": ""
+        },
+        {
+            "id": 15,
+            "name": "RTOS",
+            "brief": "",
+            "details": "",
+            "requires": [9, 16],
+            "core": true,
+            "path": ""
+        },
+        {
+            "id": 16,
+            "name": "Microcontrollers II",
+            "brief": "",
+            "details": "",
+            "requires": [8, 12],
+            "core": true,
+            "path": ""
+        },
+        {
+            "id": 17,
+            "name": "DSP HW and SW",
+            "brief": "",
+            "details": "",
+            "requires": [13, 16],
+            "core": false,
+            "path": ""
+        },
+        {
+            "id": 18,
+            "name": "GPU applications",
+            "brief": "",
+            "details": "",
+            "requires": [13],
+            "core": false,
+            "path": ""
+        },
+        {
+            "id": 19,
+            "name": "Digital Design",
+            "brief": "",
+            "details": "",
+            "requires": [13],
+            "core": true,
+            "path": ""
+        },
+        {
+            "id": 20,
+            "name": "Advanced PCB Design",
+            "brief": "",
+            "details": "",
+            "requires": [8, 19],
+            "core": false,
+            "path": ""
+        },
+        {
+            "id": 21,
+            "name": "IOT",
+            "brief": "",
+            "details": "",
+            "requires": [4, 8, 12],
+            "core": false,
+            "path": ""
+        },
+        {
+            "id": 22,
+            "name": "Embedded Linux",
+            "brief": "",
+            "details": "",
+            "requires": [10, 12],
+            "core": false,
+            "path": ""
+        },
+        {
+            "id": 23,
+            "name": "Software Engineering",
+            "brief": "",
+            "details": "",
+            "requires": [11],
+            "core": false,
+            "path": ""
+        },
+        {
+            "id": 24,
+            "name": "Microcontrollers III",
+            "brief": "",
+            "details": "",
+            "requires": [16],
+            "core": false,
+            "path": ""
+        },
+        {
+            "id": 25,
+            "name": "Communication Protocols",
+            "brief": "",
+            "details": "",
+            "requires": [7, 16],
+            "core": false,
+            "path": ""
+        },
+        {
+            "id": 26,
+            "name": "Advanced Digital Design",
+            "brief": "",
+            "details": "",
+            "requires": [19],
+            "core": false,
+            "path": ""
+        },
+        {
+            "id": 27,
+            "name": "QA in Embedded systems",
+            "brief": "",
+            "details": "",
+            "requires": [23],
+            "core": false,
+            "path": ""
+        },
+        {
+            "id": 28,
+            "name": "Wireless Communications",
+            "brief": "",
+            "details": "",
+            "requires": [14, 16],
+            "core": false,
+            "path": ""
+        }        
+    ]
+}
